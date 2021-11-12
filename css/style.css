@@ -1,5 +1,5 @@
 html, body{
-	background: url(../img/bg.jpg) no-repeat center center fixed; 
+	background: url(../img/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -20,8 +20,8 @@ html, body{
     margin: 0;  /* this affects the margin in the printer settings */
 }
 @media print {
-    #pagy2 { border: none !important; } 
-    @page 
+    #pagy2 { border: none !important; }
+    @page
 {
         border: none !important;
     size: auto;   /* auto is the initial value */
@@ -58,7 +58,7 @@ html, body{
      h2 {
        font-size: 24pt !important;
         font-weight: bold;
-        
+
     }
      h3 {
         font-size: 20pt !important;
@@ -70,17 +70,17 @@ html, body{
 #results h1 {
     font-size: 24px;
     font-weight: bold;
-    
+
 }
 #results h2 {
    font-size: 20px;
     font-weight: bold;
-    
+
 }
 #results h3 {
     font-size: 15px;
     font-weight: bold;
-    
+
 }
 #results table, th{
     text-align: left;
@@ -108,7 +108,7 @@ ul.checks li:before {
     padding-right: 5px;
  }
 .transparent{
-  background: transparent; 
+  background: transparent;
 }
 
 .vertical-center {
@@ -153,7 +153,7 @@ div.stimuliContainer {
 		background: white !important
 	}
 	.whiteBox{
-		background: transparent; 
+		background: transparent;
 		box-shadow: 0 0 0 white !important;
 	}
 
@@ -164,13 +164,13 @@ div.stimuliContainer {
 		top: 0;
 		bottom: 0;
 	}
-	
+
 	.whiteBox {
 		position: absolute;
 		height: 100%;
 		border-radius: .0em !important;
 	}
-	
+
 	input[type=radio] {
 		-ms-transform: scale(1.15) !important; /* IE 9 */
 		-webkit-transform: scale(1.15) !important; /* Chrome, Safari, Opera */
@@ -198,7 +198,7 @@ img.stimuli {
 
 .whiteBox{
 	max-width: 900px;
-	background: white; 
+	background: white;
 	box-shadow: 4px 4px 20px rgba(0,0,0,0.2);
 	-webkit-transition: width 2s; /* Safari */
     transition: width 2s;
@@ -251,58 +251,6 @@ input[type=radio] {
   line-height: 30px;
   color: white;
 }
-/*
-input[type=radio] {
-	display: none;
-	z-index:-1000; 
-	top:-1000px; 
-	overflow: hidden;
-	clip: rect(0 0 0 0);
-	height:1px; 
-	width:1px;
-	margin:-1px;
-	padding:0;
-	border:0;
-}
-
-input[type=radio] + label.css-radiolabel {
-	margin-right: 0px;
-	padding-left: 16px;	
-	display:inline-block;
-	min-height: 24px;
-	line-height:16px;
-	background-repeat:no-repeat;
-	background-position: 0 0;
-	vertical-align:middle;
-	cursor:pointer;
-	border: 7px solid transparent;
-}
-
-input[type=radio] + label.css-correctDistance{
-	padding-left: -16px;
-}
-
-input[type=checkbox] + label.css-correctDistance{
-	padding-left: 16px;
-}
-
-input[type=checkbox] + label.css-correctDistance {
-	width: 0px;
-}
-
-input[type=radio]:checked + label.css-radiolabel {
-	background-image:url(../img/radiobutton_checked16.png);
-}
-
-label.css-radiolabel {
-	background-image:url(../img/radiobutton_unchecked16.png);
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-}*/
-
 
 label.error {
 	/* remove the next line when you have trouble in IE6 with labels in list */
@@ -329,6 +277,6 @@ label.errorStar {
 	top: 25%;
 }
 
-input.error, select.error { 
-	border: 2px solid red; 
+input.error, select.error {
+	border: 2px solid red;
 }
